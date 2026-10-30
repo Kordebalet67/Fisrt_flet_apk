@@ -1,0 +1,19 @@
+[project]
+name = "gitfut-app"
+version = "0.1.0"
+description = "GitFut Scout App"
+requires-python = ">=3.9"
+dependencies = [
+    "flet",
+    "flet-webview" 
+]
+
+[tool.flet]
+org = "com.example"          # Домен (если есть)
+product = "GitFut App"       # Название приложения
+company = "Kordebalet"           # Название компании
+copyright = "Copyright (c) 2026 Kordebalet"
+
+[tool.flet.scripts]
+# Укажите ваш главный файл
+main = "gitfut_app.py"
